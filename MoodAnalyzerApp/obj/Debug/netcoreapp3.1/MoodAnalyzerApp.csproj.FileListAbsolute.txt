@@ -1,0 +1,14 @@
+C:\Users\Hp\source\repos\MoodAnalyzerApp\bin\Debug\netcoreapp3.1\MoodAnalyzerApp.exe
+C:\Users\Hp\source\repos\MoodAnalyzerApp\bin\Debug\netcoreapp3.1\MoodAnalyzerApp.deps.json
+C:\Users\Hp\source\repos\MoodAnalyzerApp\bin\Debug\netcoreapp3.1\MoodAnalyzerApp.runtimeconfig.json
+C:\Users\Hp\source\repos\MoodAnalyzerApp\bin\Debug\netcoreapp3.1\MoodAnalyzerApp.runtimeconfig.dev.json
+C:\Users\Hp\source\repos\MoodAnalyzerApp\bin\Debug\netcoreapp3.1\MoodAnalyzerApp.dll
+C:\Users\Hp\source\repos\MoodAnalyzerApp\bin\Debug\netcoreapp3.1\MoodAnalyzerApp.pdb
+C:\Users\Hp\source\repos\MoodAnalyzerApp\obj\Debug\netcoreapp3.1\MoodAnalyzerApp.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\MoodAnalyzerApp\obj\Debug\netcoreapp3.1\MoodAnalyzerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\MoodAnalyzerApp\obj\Debug\netcoreapp3.1\MoodAnalyzerApp.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\MoodAnalyzerApp\obj\Debug\netcoreapp3.1\MoodAnalyzerApp.AssemblyInfo.cs
+C:\Users\Hp\source\repos\MoodAnalyzerApp\obj\Debug\netcoreapp3.1\MoodAnalyzerApp.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\MoodAnalyzerApp\obj\Debug\netcoreapp3.1\MoodAnalyzerApp.dll
+C:\Users\Hp\source\repos\MoodAnalyzerApp\obj\Debug\netcoreapp3.1\MoodAnalyzerApp.pdb
+C:\Users\Hp\source\repos\MoodAnalyzerApp\obj\Debug\netcoreapp3.1\MoodAnalyzerApp.genruntimeconfig.cache
