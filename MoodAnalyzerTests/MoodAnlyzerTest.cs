@@ -188,7 +188,7 @@ namespace MoodAnalyzerTests
         }
 
         /// <summary>
-        /// Test Case 6.2 Given Improper Method Name Should Return MoodAnalysisException.
+        /// Test Case 6.2 Given Happy Should Return Happy.
         /// </summary>
         [TestMethod]
         public void Given_ImproperMethodName_Should_Throw_MoodAnalysisException()
@@ -203,67 +203,7 @@ namespace MoodAnalyzerTests
                 Assert.AreEqual(expected, e.Message);
             }
         }
-
-        /// <summary>
-        /// Test Case 7.1 Given Happy Should Return Happy.
-        /// </summary>
-        [TestMethod]
-        public void Given_HAPPYMessage_WithReflector_Should_ReturnHAPPY()
-        {
-            string result = MoodAnalyseFactory.SetField("HAPPY", "message");
-            Assert.AreEqual("HAPPY", result);
-        }
-
-        /// <summary>
-        /// Test Case 7.2 Given Improper FieldName Should Return MoodAnalysisException.
-        /// </summary>
-        [TestMethod]
-        public void Given_ImproperFieldName_Should_Throw_MoodAnalysisException()
-        {
-            string expected = "Field is Not Found";
-            try
-            {
-                string result = MoodAnalyseFactory.SetField("HAPPY", "DemoMessage");
-            }
-            catch (MoodAnalysisException e)
-            {
-                Assert.AreEqual(expected, e.Message);
-            }
-        }
-
-        /// <summary>
-        /// Test Case 7.3 Given Null Message Should Return MoodAnalysisException.
-        /// </summary>
-        [TestMethod]
-        public void Given_NULL_Message_WithReflector_Should_ReturnHAPPY()
-        {
-            try
-            {
-                string result = MoodAnalyseFactory.SetField(null, "message");
-            }
-            catch (MoodAnalysisException e)
-            {
-                Assert.AreEqual("Message should not be null", e.Message);
-            }
-        }
     }
 
-    internal class MoodAnalyse
-    {
-        private string message;
-
-        public MoodAnalyse()
-        {
-        }
-
-        public MoodAnalyse(string message)
-        {
-            this.message = message;
-        }
-
-        internal string AnalyseMood()
-        {
-            throw new NotImplementedException();
-        }
-    }
 }
+
